@@ -3,7 +3,7 @@ int main()
 {
     int a,b,s;
     scanf("%d%D%D", &a, &b, &s);
-    int h=a+b;
+    int h= abs(a) + abs(b);
     if(h%2==0 && s>=h && s%2==0)
     {
             printf("YES");
